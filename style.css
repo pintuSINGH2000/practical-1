@@ -1,0 +1,148 @@
+body{
+    margin: 0%;
+    padding:0%;
+}
+
+
+.logo{
+  display: inline-block;
+  left:2%;
+  top:2%;
+  position: absolute;
+}
+.logo img{
+    width:13vh;
+}
+.logo div{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+.mid{
+    display: block;
+    width:45%;
+    margin: 20px auto;
+    
+}
+.mid ul li{
+    display: inline-block;
+    margin:10px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+.mid ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 34px 23px;
+
+}
+.mid ul li a:hover, .mid ul li a.active{
+    text-decoration: underline;
+    color: rgb(169, 71, 41);
+    padding: 34px 23px;
+} 
+.right{
+    display: inline-block;
+    right:80px;
+    top:45px;
+    position: absolute;
+}
+
+.btn{
+    margin:0px 10px;
+    padding:4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.search{
+    margin:0px 10px;
+    padding:4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(224, 81, 68);
+}
+.content {
+
+    display: flex;
+    padding: 9px;
+    position: relative;
+    margin:20px;
+
+}
+.content::after {
+    content: "";
+    top: 40px;
+    left: 0px;
+    background-image: url("../img/Cut-Costs-via-Integration.jpg");
+    position: absolute;
+    width: 96%;
+    height: 60vh;
+    opacity: .1;
+    background-repeat: no-repeat;
+    border-radius: 26px;
+    background-size:cover;
+
+}
+.content-left{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px;
+    z-index: 1;
+    text-align: center;
+ }
+
+ .typing{
+     font-size: 50px;
+    animation:p 4s steps(50, end) infinite;
+    
+
+ }
+ @keyframes p {
+    0% {width:0%; opacity: 1}
+    90%{width:100%; opacity: 1}
+    100%{ opacity: 0;z-index: -1;}
+}
+
+
+ .content-right{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+    
+ }
+ .content-right img{
+     margin:65px;
+   height: 400px;
+   width: 410px;
+   border: 1px solid black;
+   border-radius: 200px;
+ 
+ }
+ .details{
+     display: flex;
+     margin:40px;
+     padding: 20px;
+ }
+ .detail h1{
+     justify-content: center;
+     text-align: center;
+ }
+.details img{
+    height:50vh;
+}
+.details h2{
+    text-align:left;
+    padding:60px;
+}
