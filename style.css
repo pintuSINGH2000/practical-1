@@ -81,7 +81,7 @@ body{
     content: "";
     top: 40px;
     left: 0px;
-    background-image: url("img/Cut-Costs-via-Integration.jpg");
+    background-image: url("/img/Cut-Costs-via-Integration.jpg");
     position: absolute;
     width: 96%;
     height: 60vh;
